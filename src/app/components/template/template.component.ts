@@ -9,10 +9,7 @@ import { NgForm } from '@angular/forms';
     border: 1px solid red;
   }
 
-  .col-form-label:after{
-  content:"*";
-  color:red;
-  }
+  
   `]
 })
 export class TemplateComponent  {
