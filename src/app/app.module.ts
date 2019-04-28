@@ -4,11 +4,13 @@ import { FormsModule   } from "@angular/forms";
 
 import { AppComponent } from './app.component';
 import { TemplateComponent } from './components/template/template.component';
+import { DataComponent } from './components/data/data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TemplateComponent
+    TemplateComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule,
